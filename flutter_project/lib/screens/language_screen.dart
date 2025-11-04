@@ -81,7 +81,7 @@ class _LanguageScreenState
             ),
             const SizedBox(height: 20),
             const Text(
-              '(Lưu ý: Đây là mô phỏng cho bài tập. Việc thay đổi ngôn ngữ toàn bộ ứng dụng cần kỹ thuật Localization nâng cao.)',
+              '(Ngôn ngữ và chưa có bản dịch.)',
               style: TextStyle(
                 color: Colors.grey,
               ),
