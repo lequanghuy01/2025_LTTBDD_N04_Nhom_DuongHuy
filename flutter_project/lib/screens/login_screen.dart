@@ -34,7 +34,7 @@ class LoginScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 5),
                 const Text(
-                  'Manage your money wisely',
+                  'Quản lý tiền của một cách khôn ngoan',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white70,

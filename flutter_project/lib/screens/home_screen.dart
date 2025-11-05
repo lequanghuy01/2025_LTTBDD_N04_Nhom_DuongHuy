@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../data/mock_data.dart';
 import '../models/models.dart';
 import '../utils/formatters.dart';
-import '../widgets/transaction_item.dart'; // Import widget mới
-import 'main_screen.dart'; // Import để dùng typedef
+import '../widgets/transaction_item.dart';
+import 'main_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final OnRefreshAndNavigate refreshData;

@@ -218,7 +218,7 @@ class _ProfileScreenState
                             const LoginScreen(),
                       ),
                       (Route<dynamic> route) =>
-                          false, // Xóa hết stack
+                          false,
                     );
                   },
                 ),

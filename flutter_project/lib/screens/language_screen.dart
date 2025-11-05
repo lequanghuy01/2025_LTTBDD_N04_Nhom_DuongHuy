@@ -81,7 +81,7 @@ class _LanguageScreenState
             ),
             const SizedBox(height: 20),
             const Text(
-              '(Ngôn ngữ và chưa có bản dịch.)',
+              '(Ngôn ngữ và chưa có bản dịch...)',
               style: TextStyle(
                 color: Colors.grey,
               ),
