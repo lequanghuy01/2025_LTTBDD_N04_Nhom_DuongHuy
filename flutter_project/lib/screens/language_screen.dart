@@ -10,11 +10,9 @@ class LanguageScreen extends StatefulWidget {
       _LanguageScreenState();
 }
 
-class _LanguageScreenState
-    extends State<LanguageScreen> {
+class _LanguageScreenState extends State<LanguageScreen> {
   // Biến state cục bộ để quản lý lựa chọn
-  Language _selectedLanguage =
-      Language.vietnamese;
+  Language _selectedLanguage = Language.vietnamese;
 
   @override
   Widget build(BuildContext context) {
@@ -31,49 +29,33 @@ class _LanguageScreenState
             Container(
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius:
-                    BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(20),
               ),
               child: ClipRRect(
-                borderRadius:
-                    BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(20),
                 child: Column(
                   children: [
                     RadioListTile<Language>(
-                      title: const Text(
-                        'Tiếng Việt',
-                      ),
+                      title: const Text('Tiếng Việt'),
                       value: Language.vietnamese,
-                      groupValue:
-                          _selectedLanguage,
-                      onChanged:
-                          (Language? value) {
-                            setState(() {
-                              _selectedLanguage =
-                                  value!;
-                            });
-                          },
-                      activeColor: const Color(
-                        0xFF1ABC9C,
-                      ),
+                      groupValue: _selectedLanguage,
+                      onChanged: (Language? value) {
+                        setState(() {
+                          _selectedLanguage = value!;
+                        });
+                      },
+                      activeColor: const Color(0xFF1ABC9C),
                     ),
                     RadioListTile<Language>(
-                      title: const Text(
-                        'English',
-                      ),
+                      title: const Text('English'),
                       value: Language.english,
-                      groupValue:
-                          _selectedLanguage,
-                      onChanged:
-                          (Language? value) {
-                            setState(() {
-                              _selectedLanguage =
-                                  value!;
-                            });
-                          },
-                      activeColor: const Color(
-                        0xFF1ABC9C,
-                      ),
+                      groupValue: _selectedLanguage,
+                      onChanged: (Language? value) {
+                        setState(() {
+                          _selectedLanguage = value!;
+                        });
+                      },
+                      activeColor: const Color(0xFF1ABC9C),
                     ),
                   ],
                 ),
@@ -81,10 +63,8 @@ class _LanguageScreenState
             ),
             const SizedBox(height: 20),
             const Text(
-              '(Ngôn ngữ và chưa có bản dịch...)',
-              style: TextStyle(
-                color: Colors.grey,
-              ),
+              '(Ngôn ngữ và chưa có bản dịch..)',
+              style: TextStyle(color: Colors.grey),
               textAlign: TextAlign.center,
             ),
           ],
