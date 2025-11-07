@@ -25,7 +25,7 @@ class LoginScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 const Text(
-                  'Quản lý tài chính',
+                  'QUẢN LÝ TÀI CHÍNH',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,

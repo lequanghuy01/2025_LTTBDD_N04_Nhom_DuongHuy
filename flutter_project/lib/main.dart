@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Quản Lý Tài Chính',
+      title: 'QUẢN LÝ TÀI CHÍNH',
       theme: ThemeData(
         primarySwatch: Colors.green,
         // Đặt màu nền chung cho Scaffold
